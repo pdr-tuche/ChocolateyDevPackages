@@ -1,4 +1,5 @@
 #upgrades: setar variaveis de ambiente para o jdk, verificar se o python esta no path das variaveis de ambiente, tudo e instalado no disco principal (C), intelliJ apresenta erro caso ja exista um instalado.
+# nodejs no path automaticamente e javahome criado nas variaveis de amviente. resta apenas o python no path.
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 
