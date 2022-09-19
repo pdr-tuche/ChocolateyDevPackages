@@ -8,7 +8,7 @@ Start-Sleep -Seconds 3
 do{
     Write-Output ""
     Write-Output ""
-    Write-Output "Selecione o que ira desenvolver (Select what you will develop):"
+    Write-Output "Selecione o que ira desenvolver :"
     $option = Read-Host "1 - React-Native    2-Python    3-java"
     switch ( $option ){
         1 {
