@@ -1,7 +1,7 @@
 Write-Output "##########################################"
 Write-Output "#               Welcome to               #"
 Write-Output "#          InstaladorDevWindows          #"
-Write-Output "#      Follow me on GitHub: @pdr0nvs     #"
+Write-Output "#     Follow me on GitHub: @pdr-tuche    #"
 Write-Output "##########################################"
 Start-Sleep -Seconds 3
 
@@ -28,7 +28,7 @@ do{
         3 { 
             Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
             choco install -y openjdk11
-         #   winget install --id JetBrains.IntelliJIDEA.Community
+            winget install --id JetBrains.IntelliJIDEA.Community
             Write-Output "instalacao Java finalizada"
         }
     }
