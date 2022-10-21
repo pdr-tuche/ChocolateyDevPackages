@@ -1,4 +1,4 @@
-# InstaladorDevWindows
+# ChocolateyDevPackages
 > 💻CLI para Instalar ambiente de desenvolvimento
 
 Decidi escrever esse script inspirado na seguinte frase do Grande Soldador: ["Procure uma necessidade e comece a ter ideias para atender essa necessidade."](https://www.youtube.com/watch?v=IpCmOe5RpwQ)
