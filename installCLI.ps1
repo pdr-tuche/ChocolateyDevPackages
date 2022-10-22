@@ -9,7 +9,11 @@ do{
     Write-Output ""
     Write-Output ""
     Write-Output "Selecione o que ira desenvolver :"
-    $option = Read-Host "1- React-Native    2- Python    3- java    4- VSCode"
+    Write-Output "1- React-Native    2- Python    3- java"
+    Write-Output "                 IDE's                  "
+    Write-Output "4- VSCode    5- JetBrains Toolbox    6- IntelliJ Community"
+
+    $option = Read-Host ""
 
     switch ( $option ){
         1 {
@@ -29,6 +33,15 @@ do{
         4 {
             choco install -y vscode
             Write-Output "instalacao Visual Studio Code finalizada"
+        }
+        5 {
+            choco install jetbrainstoolbox
+            Write-Output "instalacao JetBrains Toolbox finalizada"
+
+        }
+        6 {
+            choco install intellijidea-community
+            Write-Output "instalação IntelliJ Community finalizada"
         }
     }
     $flag = Read-Host "Deseja fazer mais uma instalacao ? [S] / [N]"
